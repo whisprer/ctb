@@ -1,30 +1,24 @@
-# LoRaWAN conformance testbed
+[README.md]
 
-The project for LoRaWAN conformance testbed
+# CTB
 
-v1.0.0 released on April 30, 2020
+<p align="center">
+  <a href="https://github.com/whisprer/CTB/releases"> 
+    <img src="https://img.shields.io/github/v/release/whisprer/CTB?color=4CAF50&label=release" alt="Release Version"> 
+  </a>
+  <a href="https://github.com/whisprer/CTB/actions"> 
+    <img src="https://img.shields.io/github/actions/workflow/status/whisprer/CTB/lint-and-plot.yml?label=build" alt="Build Status"> 
+  </a>
+</p>
 
-v1.1.0 released on April 29, 2021. Read release notes for changes information.
+![Commits](https://img.shields.io/github/commit-activity/m/whisprer/CTB?label=commits) 
+![Last Commit](https://img.shields.io/github/last-commit/whisprer/CTB) 
+![Issues](https://img.shields.io/github/issues/whisprer/CTB) 
+[![Version](https://img.shields.io/badge/version-3.1.1-blue.svg)](https://github.com/whisprer/CTB) 
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-## Objective
-
-The goal of this test bed is to enable the testing and pre-certification of sensors at the developer’s site, operating under normal operation modes or test mode applications. This all-in-one software and hardware package will be developed with an easy interface for developers to validate their hardware and firmware design and quality. 
-
-### Basic Information
-
-- Layers to be tested/qualified: MAC and application layer. 
-- Support test interruption and recovery: the test duration can be long, so the testbed should be able to recover from the previous state in the presence of power outage or internet outage. 
-- Support multiple DUT to be tested at the same time. 
-- Qualification layers
-    - LoRaWAN MAC implementation, basic functionality
-    - LoRaWAN MAC implementation, robustness
-    - Sensor application layer design
-    - Sensor application layer robustness
-    - Power consumption during long-term operation, in status, including but not limited to transmission, reception, and sleeping. 
-
-### Functionality to be Evaluated
-
-- Over the Air Activation: pre-joining behaviors
-- MAC Command Verification: DUT response to typical MAC commands from the network. 
-- Normal Operation: DUT normal operation, power consumption, and stability.
-- Application Layer Robustness: DUT behavior with high PER, frequency selective channels and other corner cases. 
+<p align="center">
+  <img src="CTB-banner.png" width="850" alt="CTB Banner"> 
+</p>
